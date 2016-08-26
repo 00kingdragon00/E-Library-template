@@ -1,0 +1,24 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.ch-img-linux-bible{
+	background-image:url(../images/linux-bible.jpg);
+}
+.img-fiction-blink{
+    background-image:url(../images/fiction/blink.jpg);
+}
+.img-fiction-warchman{
+    background-image:url(../images/fiction/go-set-a-watchman.jpg);
+}
+.img-fiction-throne{
+    background-image:url(../images/fiction/a-game-of-thrones.jpg);
+}
+.img-fiction-meluha{
+    background-image:url(../images/fiction/the-immortals-of-meluha.jpg);
+}
+.img-fiction-warz{
+    background-image:url(../images/fiction/World_War_Z.jpg);
+}
+.img-fiction-watership{
+    background-image:url(../images/fiction/Watership_Down.jpg);
+}

@@ -1,0 +1,130 @@
+﻿@charset "utf-8";
+/*BOOK.HTML*/
+.heading{
+	width:100%;
+	margin:0;
+	padding-top:90px;
+	height:5%;
+}
+.heading h3{
+	font-family:myfont;
+	color:rgba(62,62,62,1.00);
+	text-align:center;
+	font-size:45px;
+	text-transform:uppercase;
+	margin-top:10px;
+}
+.cat{
+   width:80%;
+   margin:10px auto;
+   text-align:center;
+   
+}
+ul.gap{
+	padding:0;
+	width:100%;
+	position:relative;
+	margin:15px 0 0 15px;
+}
+ul.gap li{
+	margin: 0 4px 10px 3px;
+    padding: 40px 0 0 0;
+    list-style: none;
+    border: 0.2px solid rgba(62,62,62,1.00);
+    width: 200px;
+    height: 180px;
+	display:inline-block;
+    box-shadow: 2px 2px 2px rgba(62,62,62,1.00);
+	vertical-align:top;
+    border-radius:20%;
+    background-image:url(../images/bg1.jpg);
+}
+
+a:hover li,a:hover img{
+	box-shadow:none;
+    opacity:.8;
+}
+a:hover{
+	text-decoration:none;
+}
+.cat img{
+	border:0.2px solid rgba(62,62,62,1.0);
+	box-shadow: -2px -2px 2px rgba(62,62,62,1.0);	
+    border-radius:10%;
+    background-image:url(../images/bg.jpg);
+}
+.center{
+    display:none;
+}
+@media only screen and (max-width:768px) {
+    .cat {
+        display: none;
+    }
+
+    .center {
+        display: block;
+    }
+
+    .heading {
+        width: 100%;
+        top: 70px;
+        position: relative;
+        padding: 10px 0 10px 20px;
+        box-sizing: border-box;
+        background: url(../images/header.jpg);
+        opacity: .5;
+        text-align: left;
+    }
+
+        .heading h3 {
+            text-align: left;
+            font-family: myfont;
+            color: rgba(155,146,135,1.00);
+            font-size: 30px;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+
+    .center {
+        top: 73px;
+        position: relative;
+        width: 80%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .detail {
+        width: 100%;
+        padding: 20px;
+        border: 2px solid rgba(62,62,62,1.0);
+        background-color:rgb(155,146,135);
+    }
+
+        .detail div {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+    .detail p{
+        font-size:12px;
+    }
+    .detail a{
+        text-transform:uppercase;
+	    color: rgb(136,48,46);
+	    font-style: normal;
+	    font-weight: 700;
+	    font-size: 10px;
+	    letter-spacing: 1px;
+	    padding-top: 4px;
+	    font-family: 'Open Sans', Arial, sans-serif;
+    }
+    .detail a:hover{
+        color:rgb(62,62,62);
+    }
+
+}
+@media only screen and (max-width:650px){
+    .detail{
+        text-align:center;
+    }
+}
